@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sjl.xmcsee.MainActivity">
+
+    <Button
+        android:onClick="toDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="调试" />
+    <Button
+        android:onClick="toLoginUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用户登录" />
+    <Button
+        android:onClick="toSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="局域网内设备" />
+    <Button
+        android:onClick="toSettingWifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wifi设置" />
+    <Button
+        android:onClick="toAddDevice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加设备" />
+    <Button
+        android:onClick="toLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录设备" />
+    <Button
+        android:onClick="toWatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看视频"
+        android:visibility="gone"/>
+    <Button
+        android:onClick="toWatchCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义视频" />
+
+</LinearLayout>

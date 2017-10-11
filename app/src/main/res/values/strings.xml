@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">XMCSee</string>
+
+    <string name="dev_type_monitor">监控设备</string>
+    <string name="dev_type_intelligentsocket">智能插座</string>
+    <string name="dev_type_scenelamp">情景灯泡</string>
+    <string name="dev_type_lampholder">智能灯座</string>
+    <string name="dev_type_carmate">汽车伴侣</string>
+    <string name="dev_type_bigeye">大眼睛行车记录仪</string>
+    <string name="dev_type_smalleye">小雨点</string>
+    <string name="dev_type_boutiquerotot">雄迈摇头机</string>
+    <string name="dev_type_sportcamera">运动摄像机</string>
+    <string name="dev_type_smallraindrops_fisheye">鱼眼小雨点</string>
+    <string name="dev_type_lamp_fisheye">鱼眼灯泡/全景智能灯泡</string>
+    <string name="dev_type_minions">小黄人</string>
+    <string name="dev_type_musicbox">WiFi音乐盒</string>
+    <string name="dev_type_speaker">WiFi音响</string>
+    <string name="dev_type_unknown">未知设备,请联系厂家</string>
+
+    <string name="device_stauts_unknown">状态查询中</string>
+    <string name="device_stauts_online">在线</string>
+    <string name="device_stauts_offline">离线</string>
+    <string-array name="pic_type">
+        <item>全部</item>
+        <item>报警</item>
+        <item>侦测</item>
+        <item>普通</item>
+        <item>遥控</item>
+        <item>关键</item>
+        <item>延时拍</item>
+        <item>连拍</item>
+    </string-array>
+
+    <string-array name="record_type">
+        <item>全部录像</item>
+        <item>报警录像</item>
+        <item>侦测录像</item>
+        <item>普通录像</item>
+        <item>手动录像</item>
+        <item>遥控录像</item>
+    </string-array>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sjl.xmcsee.WatchActivity">
+
+    <RelativeLayout
+        android:id="@+id/llVideo"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="#FF000000">
+        <com.sjl.xmcsee.lib.support.widget.FunVideoView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/funVideoView"></com.sjl.xmcsee.lib.support.widget.FunVideoView>
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="设备序列号"
+        android:id="@+id/etSn"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="设备用户名"
+        android:id="@+id/etDevUsername"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="设备密码"
+        android:id="@+id/etDevPassword"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="登陆设备"
+    android:id="@+id/btnLogin"/>
+    <Button
+        android:id="@+id/btnGetState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设备状态" />
+    <TextView
+        android:id="@+id/tvState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设备状态" />
+
+    <Button
+        android:id="@+id/btnChannel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通道" />
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="播放" />
+</LinearLayout>

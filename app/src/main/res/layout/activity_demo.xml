@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sjl.xmcsee.demo.DemoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="登陆" />
+
+            <EditText
+                android:id="@+id/etUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="用户名"
+                android:text="18358583827" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="用户密码"
+                android:text="12345678" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="登陆" />
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="注销" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="配置WIFI" />
+
+            <EditText
+                android:id="@+id/etWifiSSID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Wifi SSID" />
+
+            <EditText
+                android:id="@+id/etWifiPwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Wifi密码"
+                android:text="qazwsx2017" />
+
+            <Button
+                android:id="@+id/btnSettingWifi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="配置WIFI" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="设备" />
+
+            <EditText
+                android:id="@+id/etSn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="序列号" />
+
+            <EditText
+                android:id="@+id/etDevName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="设备名称"
+                android:text="xm" />
+
+            <EditText
+                android:id="@+id/etDevUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="设备用户名(一定是admin)"
+                android:text="admin" />
+
+            <EditText
+                android:id="@+id/etDevOldPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="设备原密码" />
+
+            <EditText
+                android:id="@+id/etDevPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="设备密码" />
+
+            <Button
+                android:id="@+id/btnDevAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="设备添加" />
+
+            <Button
+                android:id="@+id/btnDevUpdatePwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="密码修改" />
+
+            <Button
+                android:id="@+id/btnDevUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="设备修改" />
+
+            <Button
+                android:id="@+id/btnDevDelete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="设备删除" />
+
+            <Button
+                android:id="@+id/btnDevLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="设备登陆" />
+
+            <Button
+                android:id="@+id/btnDevLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="设备登出" />
+
+            <Button
+                android:id="@+id/btnDevState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="设备状态" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rlVideo"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:orientation="vertical">
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvVideoState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnPlay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="播放" />
+
+                <Button
+                    android:id="@+id/btnPause"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="暂停" />
+
+                <Button
+                    android:id="@+id/btnStop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="停止" />
+
+                <Button
+                    android:id="@+id/btnSnap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="抓拍" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="上" />
+
+                <Button
+                    android:id="@+id/btnDown"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="下" />
+
+                <Button
+                    android:id="@+id/btnLeft"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="左" />
+
+                <Button
+                    android:id="@+id/btnRight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="右" />
+
+                <Button
+                    android:id="@+id/btnStopRotate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="静止" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnStartTalk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="开始对讲" />
+
+            <Button
+                android:id="@+id/btnStopTalk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="结束对讲" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
